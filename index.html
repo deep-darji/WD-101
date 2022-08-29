@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<head>
+
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="box container">
+    <div class="header">
+      <form class="form" id="form">
+        <h2 align="center" class="line-1 anim-typewriter">Registration Form</h2>
+    </div>
+    <div></div>
+    <table class="tableForm" cellspacing="20px">
+
+      <div class="form-control">
+        <label for="name">Name :</label>
+        <input class="input" type="text" name="name" id="name" placeholder="Full Name" required />
+      </div>
+
+      <div class="form-control">
+        <label for="email">Email :</label></td>
+        <input class="input" type="email" name="email" id="email" placeholder="Email" required />
+      </div>
+
+      <div class="form-control">
+        <label for="name">Password :</label></td>
+        <input class="input" type="password" name="password" id="password" placeholder="Password" required />
+      </div>
+
+      <div class="form-control">
+        <label for="dob">Date Of Birth :</label></td>
+        <input style="width: 220px" class="input" type="date" name="dob" id="dob" required />
+      </div>
+
+      <tr>
+        <td colspan="2">
+          <input type="checkbox" name="agree" id="agree" />
+          <label for="checkbox">Accept Terms & Conditions</label>
+        </td>
+      </tr>
+
+      <tr class="tr">
+        <td class="td">
+          <button class="btn" type="submit" style="background-color: white; color: black; border: 2px solid black; padding: 14px 40px;">Submit</button>
+        </td>
+      </tr>
+
+
+    </table>
+    </form>
+  </div>
+
+  <div class="entry">
+    <h2 class="subHead">Entries</h2>
+    <div id="entryTab"></div>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+
+</html>
